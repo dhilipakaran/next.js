@@ -25,7 +25,6 @@ resource "google_cloud_run_service" "nextjs" {
           container_port = 8080
         }
 
-        # Secrets as env vars
         env {
           name = "NEXT_AUTH_SECRET"
           value_from {
@@ -56,7 +55,6 @@ resource "google_cloud_run_service" "nextjs" {
           }
         }
 
-        # Non-secret env vars
         env {
           name  = "BASEPATH"
           value = var.basepath
