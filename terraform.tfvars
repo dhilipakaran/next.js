@@ -1,0 +1,21 @@
+project_id                 = "galvanic-portal-456405-a2"
+region                     = "asia-south1"
+service_name               = "next-js-app"
+image_url                  = "docker.io/dhilipakaran/js:v1"
+
+basepath                   = ""
+next_public_app_url        = "http://localhost:3000/"
+nextauth_basepath          = "/api/auth"
+nextauth_url               = "http://localhost:3000/api/auth"
+api_url                    = "http://localhost:3000/api"
+next_public_api_url        = "http://localhost:3000/api"
+google_client_id           = "732727949858-amekmk345na05mgq74aieau0ts78h0qe.apps.googleusercontent.com"
+next_public_docs_url       = "https://demos.themeselection.com/sneat-mui-nextjs-admin-template/documentation"
+mode                       = "dev"
+
+nextauth_secret            = "jfhgfkhffkhfhkffjutfvthjfvfhjfj"
+google_client_secret       = "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"
+database_url               = "postgresql://savemomdev:*f]FVfENltmIsN8A@34.81.39.21/testtaiwan"
+
+next_public_firebase_client = "{\"apiKey\": \"AIzaSyCkEtUP9jw_J4M2tij6-96aXsgErLqR108\",\"authDomain\": \"savemom-starter.firebaseapp.com\",\"databaseURL\": \"https://savemom-starter-default-rtdb.asia-southeast1.firebasedatabase.app\",\"projectId\": \"savemom-starter\",\"storageBucket\": \"savemom-starter.firebasestorage.app\",\"messagingSenderId\": \"732727949858\",\"appId\": \"1:732727949858:web:a296ff325445ae7ffca87b\",\"measurementId\": \"G-0GS6BNX9NV\"}"
+cloud_run_service_account_email = "1076859015448-compute@developer.gserviceaccount.com"
